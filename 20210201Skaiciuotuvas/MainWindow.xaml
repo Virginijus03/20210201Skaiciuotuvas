@@ -7,13 +7,14 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
-        <TextBox HorizontalAlignment="Left" Height="30" Margin="10,10,0,0" TextWrapping="Wrap" Text="skaicius1" VerticalAlignment="Top" Width="120"/>
-        <TextBox HorizontalAlignment="Left" Height="30" Margin="10,50,0,0" TextWrapping="Wrap" Text="skaicius2" VerticalAlignment="Top" Width="120"/>
-        <TextBox HorizontalAlignment="Left" Height="30" Margin="10,90,0,0" TextWrapping="Wrap" Text="suma" VerticalAlignment="Top" Width="120"/>
-        <StackPanel Grid.Column>
-            <TextBlock x:Name="txtsk1"></TextBlock>
-
-
-
+        <TextBox HorizontalAlignment="Left" Height="30" Margin="10,10,0,0" TextWrapping="Wrap" Text="TextBox1" VerticalAlignment="Top" Width="120"/>
+        <TextBox HorizontalAlignment="Left" Height="30" Margin="10,50,0,0" TextWrapping="Wrap" Text="TextBox2" VerticalAlignment="Top" Width="120"/>
+        <TextBox HorizontalAlignment="Left" Height="30" Margin="10,90,0,0" TextWrapping="Wrap" Text="TextBox3" VerticalAlignment="Top" Width="120"/>
+        <StackPanel Grid.Row="0" RenderTransformOrigin="0.519,0.537" Margin="0,0,0,-583">
+            <Button Content="Button1" Height="30" Margin="10,130,0,0" Width="120"/>
+            <Button Content="Button2" Height="30" Margin="10,10,0,0" Width="120"/>
+            <Button Content="Button3" Height="30" Margin="10,10,0,0" Width="120"/>
+            <Button Content="Button4" Height="30" Margin="10,10,0,0" Width="120"/>
+        </StackPanel>
     </Grid>
 </Window>
